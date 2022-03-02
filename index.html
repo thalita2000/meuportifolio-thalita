@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Portfólio - Thalita Coutinho</title>
+</head>
+<body>
+    <header class="js-header">
+        <div class="container">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <nav class="nav js-nav">
+                <ul>
+                    <li><a href="#section-home">Home</a></li>
+                    <li><a href="#section-footer">Contato</a></li>
+                    <li><a href="#section-servicos">Habilidades</a></li>
+                    <li><a href="#section-sobre">Sobre</a></li>
+                </ul>
+                <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5531973645809">Converse comigo</a>
+            </nav>
+            <img src="./img/menu-hamburger.svg" class="img-mobile" id="js-btn-menu-mobile" alt="">
+        </div>
+        <div class="menu-mobile">
+            <div class="overlay js-overlay"></div>
+            <aside>
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <img src="./img/icon-x.svg" id="icon-x" alt="">
+                <nav class="nav js-nav">
+                    <ul>
+                        <li><a href="#section-home">Home</a></li>
+                        <li><a href="#section-footer">Contato</a></li>
+                        <li><a href="#section-servicos">Habilidades</a></li>
+                        <li><a href="#section-sobre">Sobre</a></li>
+                    </ul>
+                    <a class="btn btn-primary" href="https://api.whatsapp.com/send?phone=5531973645809" target="_blank">Converse comigo</a>
+                </nav>
+            </aside>
+        </div>
+    </header>
+    <section class="s-home" id="section-home">
+        <div class="container">
+            <div class="main-home">
+                <div class="text-home" data-aos="fade-right">
+                    <h1>Thalita <br><span>Coutinho</span></h1>
+                    <p>Me chamo Thalita Coutinho , aqui está contido o meu portfólio pessoal, que tem como objetivo principal demonstrar as minhas habilidades e compências relacionadas a programação. Ele foi desenvolvido utilizando: Html, Css, Php e JavaScript e algumas bibliotecas externas para realizar certas interatividades.
+                    </p>
+                </div>
+                <div class="img-home" data-aos="fade-left">
+                    <img src="img\whatsapp-svgrepo-com.svg" id="minha-foto" alt="">
+                    <div class="socias-home">
+                        <ul>
+                            
+                            <li><a href="https://www.linkedin.com/in/guileoni14/" target="_blank"><img src="./img/linkedin.png" alt=""></a></li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5531973645809" target="_blank"><img src="./img/whatsapp.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s-servicos" id="section-servicos">
+        <div class="container">
+            <div class="main-area-servicos">
+                <div class="right-area-servicos">
+                    <div class="text" data-aos="flip-up">
+                        <h2>HABILIDADES</h2>
+                        <span>compremetimento e qualidade</span>
+                    </div>
+                    <div class="linguagens">
+                        <div class="aviso-cards" data-aos="fade-down">
+                            <span>movimente os cards para mais opções!</span>
+                        </div>
+                        <div class="swiper-pagination" data-aos="fade-down"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-aos="fade-right">
+                                <div class="item">
+                                    <div class="item-img" id="item-img07">
+                                        <img src="./img/icon-react.svg" alt="">
+                                    </div>
+                                    <h6>REACT JS</h6>
+                                    <p>Biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-01">
+                                            <span>60%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="fade-right">
+                                <div class="item">
+                                    <div class="item-img" id="item-img01">
+                                        <img src="./img/icon-html.svg" alt="">
+                                    </div>
+                                    <h6>HTML</h6>
+                                    <p>Linguagem de marcação, responsável pela estrutura do site.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-01">
+                                            <span>60%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="fade-up">
+                                <div class="item">
+                                    <div class="item-img" id="item-img02">
+                                        <img src="./img/javascript-svgrepo-com.svg" alt="">
+                                    </div>
+                                    <h6>JAVASCRIPT</h6>
+                                    <p>Linguagem de programação, responsável pelas interações do site.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-02">
+                                            <span>25%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="fade-left">
+                                <div class="item">
+                                    <div class="item-img" id="item-img03">
+                                        <img src="./img/css-svgrepo-com.svg" alt="">
+                                    </div>
+                                    <h6>CSS</h6>
+                                    <p>Linguagem de estilo, responsável pela estilização do site.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-03">
+                                            <span>55%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="item-img" id="item-img04">
+                                        <img src="./img/icon-scss.png" alt="">
+                                    </div>
+                                    <h6>SASS</h6>
+                                    <p>Pré-processador CSS de nível profissional, mais maduro, estável e poderoso.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-04">
+                                            <span>60%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="item-img" id="item-img05">
+                                        <img src="./img/wordpress-svgrepo-com.svg" alt="">
+                                    </div>
+                                    <h6>WORDPRESS</h6>
+                                    <p>Ferramenta utilizada para criação e gerenciamento de sites.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-05">
+                                            <span>20%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <div class="item-img" id="item-img06">
+                                        <img src="./img/python-svgrepo-com.svg" alt="">
+                                    </div>
+                                    <h6>PYTHON</h6>
+                                    <p>Linguagem de programação, bastante utilizada para back-end.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-06">
+                                            <span>65%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-aos="fade-right">
+                                <div class="item">
+                                    <div class="item-img" id="item-img08">
+                                        <img src="./img/icon-gulp.svg" alt="">
+                                    </div>
+                                    <h6>GULP JS</h6>
+                                    <p>Usado como um sistema de criação de streaming no desenvolvimento front-end.</p>
+                                    <!-- <div class="porcentagem">
+                                        <div class="sub-porcentagem" id="sub-01">
+                                            <span>60%</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tec-info" data-aos="fade-up">
+                    <div class="text">
+                        <h3>Atualmente estou me aperfeiçoando no BACK-END!</h3>
+                        <p>Tenho um grande domínio sobre as tecnologias citadas acima, especificamente as linguagens voltadas para o BACK-END, as quais estão sendo concentradas os meus estudos no momento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s-sobre" id="section-sobre">
+        <div class="container">
+            <div class="main-sobre">
+                <div class="sobre-left" data-aos="fade-right">
+                    <h2>Sobre mim:</h2>
+                    <ul>
+                        <li><img src="./img/icon-person.svg" alt=""><span>Me chamo Thalita Coutinho.</span></li>
+                        <li><img src="./img/icon-person.svg" alt=""><span>Tenho 21 anos.</span></li>
+                        <li><img src="./img/icon-house.svg" alt=""><span>Moro em Belo Horizonte-MG.</span></li>
+                        <li><img src="./img/icon-code.svg" alt=""><span>Estudo programação desde 2018.</span></li>
+                        <li><img src="./img/icon-book.svg" alt=""><span>Cursando Sistemas da Informação - Estacio de Sá.</span></li>
+                        <li><img src="./img/icon-comp.svg" alt=""><span>Amo programar e tudo relacionado a tecnologia.</span></li>
+                    </ul>
+                    <p>Conheci o "mundo" da programação quando fiz meu primeiro estagio em uma escola de  informática(CNI) em 2018, comecei a estudar linguagens como PHP e Java. Ao passar do tempo parti para algumas outras linguagens e frameworks, até que em 2021, decidi focar no BACK-END e concentrar todos os meus estudos nessa área.</p>
+                </div>
+                <div class="sobre-right">
+                    <h2 data-aos="fade-left">Projetos</h2>
+                    <div class="swiper-one">
+                        <span data-aos="fade-left">movimente os cards para mais opções!</span>
+                        <div class="swiper-pagination" data-aos="fade-left"></div>
+                        
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-aos="flip-up">
+                                <div class="card-projetos">
+                                    <img src="./img/neon.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/neon-coments.PNG" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/neon-s3.PNG" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/neon-s1.png" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/neon-cel.png" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/neon-footer.png" alt="">
+                                    
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="swiper-two">
+                        <span data-aos="fade-left">movimente os cards para mais opções!</span>
+                        <div class="swiper-pagination-two" data-aos="fade-left"></div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-aos="flip-up">
+                                <div class="card-projetos">
+                                    <img src="./img/wriframe-home.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/wriframe.png" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/wriframe-footer.png" alt="">
+                                    
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="card-projetos">
+                                    <img src="./img/wriframe-s2.PNG" alt="">
+                                    
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="section-footer">
+        <div class="background-footer" data-aos="fade-right">
+            <div class="main-contato">
+                <span>Podemos ser parceiros</span>
+                <h2>Gostou do trabalho?</h2>
+                <a href="https://api.whatsapp.com/send?phone=5531973645809" target="_blank" class="btn btn-second">Claro! vamos conversar</a>
+            </div>
+        </div>
+            <div class="container" data-aos="fade-up">
+                <nav>
+                    <ul>
+                    
+                        <li><a href="https://api.whatsapp.com/send?phone=5531973645809" target="_blank"><div class="img-social">
+                            <img src="/img/whatsapp.png" alt="">
+                        </div></a></li>
+                        <li><a href="https://www.linkedin.com/in/thalita-coutinho-0910a8185/" target="_blank"><div class="img-social">
+                            <img src="./img/linkedin-svgrepo-com.svg" alt="">
+                        </div></a></li>
+                        <li><a href="https://github.com/thalita2000" target="_blank"><div class="img-social">
+                            <img src="./img/github-svgrepo-com.svg" alt="">
+                        </div></a></li>
+                    </ul>
+                </nav>
+                <div class="f-footer">
+                    <span>© Copyright 2021 Desenvolvido por Thalita Coutinho</span>
+                    <span>thallytacoutinho234@gmail.com</span>
+                </div>
+            </div>
+    </footer>
+    <script src="./js/index.js" ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+            var largura = window.screen.width;
+            if (largura <= 991 && largura > 480){
+                altura = 2
+            }else if(largura <= 480){
+                altura = 1    
+            }else{
+                altura = 3
+            }
+            var swiper = new Swiper(".linguagens", {
+            slidesPerView: altura,
+            spaceBetween: 32,
+            pagination: {
+                el: ".s-servicos .container .main-area-servicos .right-area-servicos .swiper-pagination",
+                clickable: true,
+            },
+        });
+        var swiper_projetos_one = new Swiper(".swiper-one", {
+            slidesPerView: 1,
+            spaceBetween: 32,
+            pagination: {
+                el: ".s-sobre .container .main-sobre .sobre-right .swiper-one .swiper-pagination",
+                clickable: true,
+            },
+        });
+        var swiper_projetos_two = new Swiper(".swiper-two", {
+            slidesPerView: 1,
+            spaceBetween: 32,
+            pagination: {
+                el: ".s-sobre .container .main-sobre .sobre-right .swiper-two .swiper-pagination-two",
+                clickable: true,
+            },
+        });
+        AOS.init({
+            duration: 1000,
+            once: true,
+            disable: 'mobile', //para a animação acontecer somente uma vez
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: $text-color-primary;
+}
+
+html{
+    font-size: 62.5%;
+    @include responsive(320px){
+        font-size: 50%;
+    }
+}
+
+section{
+    width: 100%;
+}    
